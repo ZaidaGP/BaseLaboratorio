@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/buttonPrevious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.3"
+        android:text="Previous"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="272dp"
+        />
+
+    <Button
+        android:id="@+id/buttonPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:layout_gravity="center_vertical"
+        android:text="Play"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="272dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:layout_gravity="center_vertical"
+        android:text="Next"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="500dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/buttonPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:layout_gravity="center_vertical"
+        android:text="Pause"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="500dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/buttonStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:layout_gravity="center_vertical"
+        android:text="Stop"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="275dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
